@@ -169,7 +169,10 @@ class Inline:
         if private:
             rows += [
                 [
-                    self.ikb(text=lang["˹ ᴏᴡɴᴇʀ ˼"], url="https://t.me/MrPerfectXd",)
+                   self.ikb(
+                        text=lang["source"],
+                        url="https://github.com/AnonymousX1025/AnonXMusic",
+                   )
                 ]
             ]
         else:
