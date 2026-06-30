@@ -9,7 +9,6 @@ import asyncio
 from datetime import datetime
 
 import urllib3
-from git import Repo
 from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
