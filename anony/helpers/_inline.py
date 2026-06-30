@@ -3,7 +3,6 @@
 # This file is part of MrPerfectXd
 
 from pyrogram import enums, types
-from pyrogram.enums import ButtonStyle
 
 from anony import app, config, lang
 from anony.core.lang import lang_codes
@@ -177,10 +176,7 @@ class Inline:
         if private:
             rows += [
                 [
-                    self.ikb(
-                        text=lang["˹ ᴏᴡɴᴇʀ ˼"], 
-                        url="https://t.me/MrPerfectXd",
-                    )
+                    self.ikb(text=lang["˹ ᴏᴡɴᴇʀ ˼"], url="https://t.me/MrPerfectXd",)
                 ]
             ]
         else:
